@@ -1,0 +1,18 @@
+
+
+body{
+    background-color: aliceblue;
+}
+
+#heading1{
+background-color: azure;
+}
+
+.heading2{
+    background-color: rgb(25, 161, 161);
+    }
+
+button{
+    border-color: blue;
+    color: black;
+}
