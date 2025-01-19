@@ -4,7 +4,7 @@ body{
     background-color: aliceblue;
 }
 
-#heading1{
+/* #heading1{
 background-color: azure;
 }
 
@@ -28,4 +28,15 @@ button{
 
 .content{
     color: red;
+} */
+
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
 }

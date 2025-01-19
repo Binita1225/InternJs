@@ -56,12 +56,65 @@
 
 //[practice]
 
-let newBtn = document.createElement("button");
-newBtn.innerText = "click";
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "click";
 
-newBtn.style.color = "white";
-newBtn.style.backgroundColor = "red";
+// newBtn.style.color = "white";
+// newBtn.style.backgroundColor = "red";
 
-document.querySelector("body").prepend(newBtn);
+// document.querySelector("body").prepend(newBtn);
 
-let p = document.querySelector("p");
+// let p = document.querySelector("p");
+
+
+//Events
+
+let btn1 = document.querySelector("#btn1");
+
+// btn1.onclick = () =>{
+//     console.log("btn1 clicked");
+//     let a = 25;
+//     a++;
+//     console.log(a);
+// };
+
+// let div = document.querySelector("div");
+// div.onmouseover= () =>{
+//     console.log("inside div");
+// };
+
+// let btn2 = document.querySelector("#btn2");
+// btn2.addEventListener("click", () =>{
+// console.log("btn clicked");
+
+// });
+
+// const handler1 = () =>{
+//     console.log("btn clicked - handler1");
+// };
+
+// btn2.addEventListener("click", handler1);
+
+// btn2.removeEventListener("click", handler1);
+
+//practice light dartk toggle
+// let modeBtn = document.querySelector("#mode");
+// let body = document.querySelector("body");
+// let currMode = "light";
+
+// modeBtn.addEventListener("click", () =>{
+//     if(currMode === "light"){
+//         currMode = "dark";
+//         body.classList.add("dark");
+//         body.classList.remove("light");
+//     }else{
+//         currMode = "light";
+//         body.classList.add("light");
+//         body.classList.remove("dark");
+//     }
+
+//     console.log(currMode);
+// });
+
+
+//Classes & objects
